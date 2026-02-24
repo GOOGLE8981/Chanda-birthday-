@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Chanda ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<style>
+body{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  font-family:'Poppins',sans-serif;
+  background: radial-gradient(circle at top,#ff4e88,#1a001f);
+  color:white;
+  text-align:center;
+}
 
+/* Floating Hearts */
+.heart{
+  position:absolute;
+  color:#ffb6c1;
+  font-size:20px;
+  animation: float 8s linear infinite;
+}
+
+@keyframes float{
+  from{ transform:translateY(100vh); opacity:1;}
+  to{ transform:translateY(-10vh); opacity:0;}
+}
+
+/* Center Box */
+.container{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+h1{
+  font-family:'Great Vibes',cursive;
+  font-size:60px;
+  margin:10px;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+  from{text-shadow:0 0 10px #fff;}
+  to{text-shadow:0 0 40px #ffccff;}
+}
+
+/* Cake */
+.cake{
+  margin:20px auto;
+}
+.layer{
+  width:220px;
+  height:60px;
+  background:#8b4513;
+  border-radius:15px;
+  margin:5px auto;
+}
+.cream{
+  width:220px;
+  height:20px;
